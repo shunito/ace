@@ -4,7 +4,7 @@ const enJson = require("./locales/en.json");
 const frJson = require("./locales/fr.json");
 const pt_BRJson = require("./locales/pt_BR.json");
 const esJson = require("./locales/es.json");
-const jaJson = require("./locales/ja_JP.json");
+const jaJson = require("./locales/ja.json");
 
 export const localizer = newLocalizer({
     en: {
