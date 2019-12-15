@@ -1,6 +1,6 @@
 {
   "name": "@daisy/ace-axe-runner-puppeteer",
-  "version": "1.1.0",
+  "version": "1.2.0-beta.6",
   "description": "Puppeteer-based Axe runner for Ace",
   "author": {
     "name": "DAISY developers",
@@ -18,8 +18,8 @@
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "@daisy/puppeteer-utils": "^1.1.0",
-    "puppeteer": "^1.0.0"
+    "@daisy/puppeteer-utils": "file:../puppeteer-utils",
+    "puppeteer": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"

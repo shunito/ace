@@ -7,7 +7,7 @@ const esJson = require("./locales/es.json");
 const jaJson = require("./locales/ja.json");
 
 
-export const localizer = newLocalizer({
+const localizer = newLocalizer({
     en: {
         name: "English",
         default: true,
@@ -30,3 +30,4 @@ export const localizer = newLocalizer({
       translation: jaJson,
   },
 });
+module.exports = { localizer };

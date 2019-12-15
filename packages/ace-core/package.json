@@ -1,6 +1,6 @@
 {
   "name": "@daisy/ace-core",
-  "version": "1.1.1",
+  "version": "1.2.0-beta.6",
   "description": "Core library for Ace",
   "author": {
     "name": "DAISY developers",
@@ -18,18 +18,18 @@
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "@daisy/ace-localize": "^1.1.0",
-    "@daisy/ace-logger": "^1.1.0",
-    "@daisy/ace-meta": "^1.1.0",
-    "@daisy/ace-report": "^1.1.1",
-    "@daisy/ace-report-axe": "^1.1.1",
-    "@daisy/epub-utils": "^1.1.0",
-    "axe-core": "^3.2.2",
-    "file-url": "^2.0.2",
+    "@daisy/ace-localize": "file:../ace-localize",
+    "@daisy/ace-logger": "file:../ace-logger",
+    "@daisy/ace-meta": "file:../ace-meta",
+    "@daisy/ace-report": "file:../ace-report",
+    "@daisy/ace-report-axe": "file:../ace-report-axe",
+    "@daisy/epub-utils": "file:../epub-utils",
+    "axe-core": "^3.4.0",
+    "file-url": "^3.0.0",
     "h5o": "^0.11.3",
-    "p-map": "^1.2.0",
-    "tmp": "^0.0.33",
-    "winston": "^2.4.0"
+    "p-map": "^3.0.0",
+    "tmp": "^0.1.0",
+    "winston": "^3.2.1"
   },
   "publishConfig": {
     "access": "public"
