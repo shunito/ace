@@ -30,3 +30,6 @@ website/site
 .DS_Store
 ._*
 Thumbs.db
+
+# Ace-GUI
+/ace-gui
